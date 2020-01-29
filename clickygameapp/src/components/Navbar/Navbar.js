@@ -3,11 +3,11 @@ import "./Navbar.css";
 
 const Navbar = props => (
     <div className="navbar">
-        <div>Click Game</div>
+        <h1>Click Game</h1>
         <div className={props.navMsgColor}>{props.navMessage}</div>
-        <div>
+        <h2>
             score: {props.score} <span className="pipe">|</span> High Score: {props.highScore}
-        </div>
+        </h2>
     </div>
 )
 export default Navbar;
