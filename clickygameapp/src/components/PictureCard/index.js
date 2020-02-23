@@ -1,12 +1,15 @@
 import React from "react";
- import "./Images.css";
-const PictureCard = props => {
-  return (
+import "./Images.css";
+const PictureCard = props => (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.Images1} />
+              <img class ="icon"  alt = "icon"src ={props.image}
+          onClick = {() => props.handleClick(props.id)}
+      ></img>
       </div>
-      </div>
-  )
-}
+    </div>
+  );
+
+
+
 export default PictureCard;

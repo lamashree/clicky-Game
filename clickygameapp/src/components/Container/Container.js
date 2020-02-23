@@ -1,18 +1,17 @@
-// import React from 'react';
-// import './Container.css';
+import React from 'react';
+import './Container.css';
 
-// const Container = props => (
-//     // loops through
-//     <div
-//       className={
-//         props.shake
-//           ? 'container d-flex flex-wrap justify-content-center shake'
-//           : 'container d-flex flex-wrap justify-content-center'
+const Container = props => (
+    // loops through
+    <div
+      className={
+        props.shake
+          ? 'container d-flex flex-wrap justify-content-center shake'
+          : 'container d-flex flex-wrap justify-content-center'
+      }
+    >
+      {props.characters.map((a, i) => <Character name={a} key={i} clickEvent={props.clickEvent} />)}
+    </div>
+  );
 
-//       }
-// </div>
-// )
- 
-   
-
-  // export default Container;
+  export default Container;
