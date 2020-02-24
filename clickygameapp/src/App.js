@@ -84,7 +84,16 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         {this.renderMessage}
-
+        <div class=" info-container">
+          <div class="Row">
+            <div class= "col sm6">
+            <h1>Begin Clicky Game by clicking any image</h1>
+            <span>
+              <h1>To earn points don't click same image again!!</h1>
+            </span>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col md8">
             <Wraper>
