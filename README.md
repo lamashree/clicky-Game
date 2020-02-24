@@ -20,3 +20,5 @@ Here are the steps for running this application locally in your machine.
 
 ## Using the App
  ![Home page](/clickygameapp/public/images/image.jpg)
+ The clciky game I developed can be see on the above image. This is a single page game application where user can see what is their top score and are user clciking the same image again or not. The navbar message keep changing with the user click event.
+ 
