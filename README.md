@@ -19,4 +19,4 @@ Here are the steps for running this application locally in your machine.
 6. Javascraipt
 
 ## Using the App
- ![Home page](/client/public/images/Image 2-24-20 at 1.34 AM.jpg)
+ ![Home page](/clickygameapp/public/images/image.jpg)
