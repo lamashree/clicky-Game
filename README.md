@@ -10,3 +10,10 @@ Here are the steps for running this application locally in your machine.
 3. run "npm install" to install all the necessary packages
 4. run "npm start" to start the server
 
+## Technologies for Application
+1. React framework
+2. Node.js
+3. Npm packages
+4. CSS
+5. HTML
+6. Javascraipt
