@@ -2,7 +2,6 @@ import React from 'react';
 import './Container.css';
 
 const Container = props => (
-    // loops through
     <div
       className={
         props.shake
