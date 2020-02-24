@@ -11,9 +11,6 @@ class App extends Component {
     Images,
     score: 0,
     topScore: 0,
-    navMessage: "",
-    animating: false,
-    clickedpaintings: []
   }
   componentDidMount() {
     this.setState({ Images: this.shuffleArray(this.state.Images) });
@@ -83,9 +80,8 @@ class App extends Component {
 
         <Navbar
           score={this.state.score}
-          navMessage={this.renderMessage}
+          navMessage={this.state.navMessage}
           topScore={this.state.topScore}
-        // {this.renderMessage}
         />
         {this.renderMessage}
 
