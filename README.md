@@ -1,5 +1,4 @@
 # clicky-Game
-# clicky-Game
  Heroku deployed URL :  https://react-memories-demo-app.herokuapp.com/
 ## Description	## Description
 Clicky Game is the memory games creates in React. this memory game assignment is builded using breakdown up application's UI into components, manage component state, and respond to user events.	Clicky Game is the memory games creates in React. this memory game assignment is builded using breakdown up application's UI into components, manage component state, and respond to user events.
